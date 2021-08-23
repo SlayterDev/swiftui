@@ -4,6 +4,7 @@ import UIKit
 
 public extension Color {
     static var draculaBackground = Color(UIColor(named: "background", in: .module, compatibleWith: nil)!)
+    static var draculaViewBackground = Color(UIColor(named: "viewBackground", in: .module, compatibleWith: nil)!)
     static let draculaCurrent = Color(UIColor(named: "current", in: .module, compatibleWith: nil)!)
     static let draculaForeground = Color(UIColor(named: "foreground", in: .module, compatibleWith: nil)!)
     static let draculaComment = Color(UIColor(named: "comment", in: .module, compatibleWith: nil)!)
